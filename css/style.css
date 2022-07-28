@@ -1,3 +1,23 @@
-/* .slider-header {
-    font-size: 65px;
-} */
+/* laptop view */
+@media only screen and (min-width:1024px) {
+    .slider-header {
+        font-size: 65px;
+    }
+}
+
+/* tablet view */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .slider-header {
+        font-size: 40px;
+    }
+}
+
+/* tablet complete */
+/* mobile device */
+@media only screen and (min-width:300px) and (max-width:767px) {
+    .slider-header {
+        font-size: 20px;
+    }
+
+}
